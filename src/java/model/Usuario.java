@@ -1,6 +1,12 @@
 package model;
+ //Tiago: Não estou usando 
+
+import dao.UsuarioDAO;
+
 
 public class Usuario {
+
+   
 
     private int codigo;
     private String login;
@@ -36,5 +42,10 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+    
+     public static Usuario getUserLogin(String user, String senha) {
+           Usuario usuario = UsuarioDAO.getUserLogin(user, senha);
+            return usuario;
     }
 }

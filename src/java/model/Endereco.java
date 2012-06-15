@@ -88,9 +88,6 @@ public class Endereco {
 
     public void setUf(String uf) {
         this.uf = uf;
-    }
-    
-     public static void gravaEndereco(Endereco endereco){
-        EnderecoDAO.cadastrarEndereco(endereco);
-    }
+    }    
+   
 }

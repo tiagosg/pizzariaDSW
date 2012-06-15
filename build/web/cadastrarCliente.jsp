@@ -30,7 +30,7 @@
         <jsp:setProperty name="cliente" property="usuario" value="${usuario}"/>
         <jsp:setProperty name="cliente" property="endereco" value="${endereco}"/>
         
-        <form action="cadastrarCliente.jsp" method="POST">
+        <form action="cadastrarCliente.jsp" method="GET">
             <p>  <h3> Dados Pessoais: </h3></p>
             <p>  Nome:   <input type="text" size="25" name="Nome">   </p>
             <p>  CPF:   <input type="text" size="25" name="CPF">   </p>

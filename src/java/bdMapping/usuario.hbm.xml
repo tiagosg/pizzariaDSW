@@ -3,9 +3,14 @@
 <hibernate-mapping>
   <class name="model.Usuario" table="usuario">
     <id name="codigo">
-        <generator class="increment"></generator>
+      <generator class="increment"/>
     </id>
     <property name="login"/>
     <property name="senha"/>
   </class>
+  
+  <query name="buscarUsuarioCadastrado">
+        from Usuario where login = :login and senha = :senha <!-- OH MY GOD, HIBERNATE IS SENSITIVE CASE!! Usuario-->
+  </query>
+  
 </hibernate-mapping>

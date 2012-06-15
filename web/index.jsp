@@ -6,6 +6,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="cadastrarCliente.jsp"><h3>Cadastrar Cliente</h3></a>
+        <a href="cadastrarCliente.jsp"><h3>Cadastre-se</h3></a>        
+        
+        <a href="login.jsp"><h3>Entrar</h3></a>
+        
     </body>
 </html>

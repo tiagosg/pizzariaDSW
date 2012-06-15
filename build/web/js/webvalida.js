@@ -16,7 +16,7 @@
         frm.senha.focus();
         return false;
      }else{
-        caminhourl = "/PizzariaWeb/home.jsp";  
+        caminhourl = "/pizzariaDSW/home.jsp";  
         document.forms[0].action = caminhourl;  
         window.document.forms[0].submit();
         return true;
