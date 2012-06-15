@@ -54,7 +54,9 @@
             ControladorCadastro controladorCadastro = new ControladorCadastro();
             controladorCadastro.cadastrarCliente(cliente);
          }
-        %>
         
+        //TESTE
+        %>
+       
     </body>
 </html>
