@@ -9,4 +9,8 @@ public class ControladorCadastro {
         Cliente.gravaCliente(cliente);
     }
     
+    public void cadastrarProduto(Produto produto){
+        Produto.gravarProduto(produto);
+    }
+    
 }
