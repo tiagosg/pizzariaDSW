@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PedidoWeb v3</title>
+        <title>Pizzaria DSW</title>
         <script type="text/javascript" language="JavaScript" src="js/webvalida.js"></script>
     </head>
     <body>

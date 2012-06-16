@@ -11,5 +11,6 @@
     <mapping resource="bdMapping/cliente.hbm.xml"/>
     <mapping resource="bdMapping/endereco.hbm.xml"/>
     <mapping resource="bdMapping/usuario.hbm.xml"/>
+    <mapping resource="bdMapping/produto.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

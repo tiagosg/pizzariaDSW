@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Pizzaria DSW</title>
     </head>
     <body>
         <a href="cadastrarCliente.jsp"><h3>Cadastre-se</h3></a>        

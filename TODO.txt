@@ -1,0 +1,5 @@
+- Validações nos campos de cadastros de clientes --> Tiago;
+- Exemplo de formatos dos valores dos campos (ex: CPF: 123.456.789-00) --> Tiago;
+- Parte Grafica (estilo restauranteweb) --> Joseandro;
+- Carrinho de compras --> Tiago/Paulo/Eduardo;
+

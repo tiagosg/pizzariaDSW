@@ -1,9 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : 16/04/2012, 22:19:16
-    Author     : tiagoosg
---%>
-
 <%@page import="controller.ControladorBuscas"%>
 <%@page import="controller.ControladorCadastro"%>
 <%@page import="org.hibernate.validator.util.Contracts"%>
@@ -13,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Pizzaria DSW</title>
     </head>
     <body>
         <jsp:useBean id="usuario" class="model.Usuario" scope="session"/>    <%--Declara ou assumi um Bean--%>   
@@ -41,7 +35,7 @@
 
         <table border="0" width="500" align="center">
             <tr>
-                <td> <a href="/pizzariaDSW/cadastroPizza.jsp"> Cadastrar PIZZA</a> </td>                    
+                <td> <a href="/pizzariaDSW/cadastrarProduto.jsp"> Cadastrar Produtos</a> </td>                    
             </tr>
             
         </table>
